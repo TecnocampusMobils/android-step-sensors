@@ -80,8 +80,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void handleMessage(Message msg) {
 				super.handleMessage(msg);
-				textViewStepDetector.setText(DateUtils
-						.getRelativeTimeSpanString(timestamp));
+				textViewStepDetector.setText(DateUtils.getRelativeTimeSpanString(timestamp));
 			}
 		};
 
